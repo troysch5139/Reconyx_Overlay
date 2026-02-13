@@ -37,7 +37,7 @@ function App() {
   useEffect(() => {
     if (baseImage && overlayImage) {
       drawCanvas();
-    }
+    } eslint-disable-next-line react-hooks/exhaustive-deps
   }, [baseImage, overlayImage, overlayOpacity]);
 
   const handleBaseImageUpload = (e) => {
