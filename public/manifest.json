@@ -1,0 +1,22 @@
+{
+  "short_name": "Reconyx",
+  "name": "Reconyx_Overlay",
+  "description": "Apply Reconyx overlay to your images",
+  "icons": [
+    {
+      "src": "/overlay.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/overlay.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#f5f5f5",
+  "background_color": "#ffffff",
+  "orientation": "portrait"
+}
